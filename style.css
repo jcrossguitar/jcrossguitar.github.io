@@ -43,7 +43,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -66,23 +68,31 @@ li.dropdown {
   #aside {
       color: #f1f1f1;
       background-color: #333;
+      text-align: center;
   }
   
   #section1 {
       color: #f1f1f1;
       background-color: #333;
-      width: 495px;
+      width: 960px;
+      text-align: center;
+      align-content: center;
+
   }
 
   #section2 {
       color: #f1f1f1;
       background-color: #333;
-      width: 495px;
+      width: 960px;
+      text-align: center;
+
   }
 
   #article {
       color: #f1f1f1;
       background-color: #333;
+      text-align: center;
+
   }
 
   #footer {
